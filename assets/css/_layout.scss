@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: rgba(119, 223, 87, 0.486);
+}
+
+img {
+    position: absolute;
+    width: 15%;
+    margin-left: 300px;
+    margin-top:70px;
+    border-start-start-radius:50% ;
+    border-start-end-radius:50% ;
+    border-end-end-radius:50% ;
+    border-end-start-radius:50%;
+}
+
+.nome {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 200px;
+}
+
+.tec {
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 200px;
+}
+
+.box {
+    margin-left: 940px;
+    position: absolute;
+    width: 50%;
+    float: left;
+    height: 1000px;/*Altura da linha*/
+    color: rgb(0, 0, 0);
+   }
+   
+   .linha-vertical {
+    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    box-sizing: border-box;
+   }
+
+   .sobre {
+    margin-left: 1000px;
+    position: absolute;
+    float: left;
+    height: 1000px;
+
+   }
+
+   .escolaridade {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 1000px;
+   }
+
+   .conhecimentos {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 1000px;
+   }
+   
+h1 {
+    color: rgb(25, 27, 25);
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+ }
+
+ main {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50%;
+    padding-bottom: 100%;
+    background-color: rgb(21, 109, 21);
+ }
+ 
+   
+
